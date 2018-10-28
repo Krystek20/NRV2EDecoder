@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/KrystianYM/NRV2EDecoder'
+  s.homepage         = 'https://github.com/Krystek20/NRV2EDecoder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'KrystianYM' => 'krystiansolarz@gmail.com' }
-  s.source           = { :git => 'https://github.com/KrystianYM/NRV2EDecoder.git', :tag => s.version.to_s }
+  s.author           = { 'Krystian Solarz' => 'krystiansolarz@gmail.com' }
+  s.source           = { :git => 'https://github.com/Krystek20/NRV2EDecoder.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

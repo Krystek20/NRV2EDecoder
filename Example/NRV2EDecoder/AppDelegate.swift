@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  NRV2EDecoder
 //
-//  Created by KrystianYM on 10/28/2018.
-//  Copyright (c) 2018 KrystianYM. All rights reserved.
+//  Created by Krystek Solarz on 10/28/2018.
+//  Copyright (c) 2018 Krystian Solarz. All rights reserved.
 //
 
 import UIKit

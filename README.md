@@ -1,6 +1,6 @@
 # NRV2EDecoder
 
-[![CI Status](https://img.shields.io/travis/KrystianYM/NRV2EDecoder.svg?style=flat)](https://travis-ci.org/KrystianYM/NRV2EDecoder)
+[![CI Status](https://img.shields.io/travis/Krystek20/NRV2EDecoder.svg?style=flat)](https://travis-ci.org/Krystek20/NRV2EDecoder)
 [![Version](https://img.shields.io/cocoapods/v/NRV2EDecoder.svg?style=flat)](https://cocoapods.org/pods/NRV2EDecoder)
 [![License](https://img.shields.io/cocoapods/l/NRV2EDecoder.svg?style=flat)](https://cocoapods.org/pods/NRV2EDecoder)
 [![Platform](https://img.shields.io/cocoapods/p/NRV2EDecoder.svg?style=flat)](https://cocoapods.org/pods/NRV2EDecoder)
@@ -22,7 +22,7 @@ pod 'NRV2EDecoder'
 
 ## Author
 
-KrystianYM, krystiansolarz@gmail.com
+Krystian Solarz, krystiansolarz@gmail.com
 
 ## License
 
