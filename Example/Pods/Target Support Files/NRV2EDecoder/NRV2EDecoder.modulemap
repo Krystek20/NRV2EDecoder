@@ -1,0 +1,6 @@
+framework module NRV2EDecoder {
+  umbrella header "NRV2EDecoder-umbrella.h"
+
+  export *
+  module * { export * }
+}

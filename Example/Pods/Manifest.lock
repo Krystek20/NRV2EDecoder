@@ -1,0 +1,16 @@
+PODS:
+  - NRV2EDecoder (0.1.0)
+
+DEPENDENCIES:
+  - NRV2EDecoder (from `../`)
+
+EXTERNAL SOURCES:
+  NRV2EDecoder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NRV2EDecoder: bcd94fb9927e554ac77625ef0cf9a234364ad8e5
+
+PODFILE CHECKSUM: 8fe25a04b6388f8bc20acafc8decee94c255d8b2
+
+COCOAPODS: 1.5.3

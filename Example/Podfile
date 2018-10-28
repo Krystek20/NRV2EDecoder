@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NRV2EDecoder_Example' do
+  pod 'NRV2EDecoder', :path => '../'
+
+  target 'NRV2EDecoder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

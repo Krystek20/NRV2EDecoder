@@ -1,0 +1,6 @@
+framework module Pods_NRV2EDecoder_Tests {
+  umbrella header "Pods-NRV2EDecoder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

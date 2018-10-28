@@ -1,0 +1,22 @@
+{
+  "name": "NRV2EDecoder",
+  "version": "0.1.0",
+  "summary": "A short description of NRV2EDecoder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KrystianYM/NRV2EDecoder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KrystianYM": "krystiansolarz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/KrystianYM/NRV2EDecoder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NRV2EDecoder/Classes/**/*"
+}
