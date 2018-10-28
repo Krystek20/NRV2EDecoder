@@ -1,22 +1,23 @@
 {
   "name": "NRV2EDecoder",
   "version": "0.1.0",
-  "summary": "A short description of NRV2EDecoder.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/KrystianYM/NRV2EDecoder",
+  "summary": "NRV2EDecoder decodes NRV2E algorithm",
+  "description": "RV2EDecoder decodes NRV2E algorithm and you can use NRV2EScanner to decode aztec code in Polish vehicle cards.",
+  "homepage": "https://github.com/Krystek20/NRV2EDecoder",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "KrystianYM": "krystiansolarz@gmail.com"
+    "Krystian Solarz": "krystiansolarz@gmail.com"
   },
   "source": {
-    "git": "https://github.com/KrystianYM/NRV2EDecoder.git",
+    "git": "https://github.com/Krystek20/NRV2EDecoder.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "swift_version": "4.0",
   "source_files": "NRV2EDecoder/Classes/**/*"
 }

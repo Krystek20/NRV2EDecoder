@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/NRV2EDecoder.svg?style=flat)](https://cocoapods.org/pods/NRV2EDecoder)
 [![Platform](https://img.shields.io/cocoapods/p/NRV2EDecoder.svg?style=flat)](https://cocoapods.org/pods/NRV2EDecoder)
 
-## Example
+<!--## Example-->
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 

@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## NRV2EDecoder
 
-Copyright (c) 2018 Krystian Solarz <krystiansolarz@gmail.com>
+Copyright (c) 2018 Krystek20 <krystiansolarz@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
