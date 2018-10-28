@@ -1,4 +1,5 @@
 import UIKit
+import NRV2EDecoder
 
 class NRV2EExampleViewController: UITableViewController {
 
@@ -18,7 +19,7 @@ class NRV2EExampleViewController: UITableViewController {
     }
     
     @IBAction func openScannerAction(_ sender: Any) {
-        let scannerViewController = NRV2EScannerViewController()
+
     }
     
 }

@@ -13,9 +13,12 @@
 		8D610671125CC63E68D4C9F02B4C1140 /* Pods-NRV2EDecoder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6434D91E4D1E7120B5728E86B5F98D89 /* Pods-NRV2EDecoder_Tests-dummy.m */; };
 		92D51BC25B8BD59F2A27CCA5111F34FB /* NRV2EDecoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3529A93DDDABDEC23E28DB0DF053BA0 /* NRV2EDecoder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF6FDED5CDC2336A89C4F7DEA3662A51 /* Pods-NRV2EDecoder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 871F54026EE4BFCDCA2ED75D0B86BC08 /* Pods-NRV2EDecoder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0505F929EBE81B06363CE791711C9F9 /* NRV2EScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426CEED3C8F291E7362749A97EEB466B /* NRV2EScannerViewController.swift */; };
 		B92B646A1AC647E953AD618F62D1C161 /* NRV2EDecoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1105C7C38F214BB523670F0E1CD3226 /* NRV2EDecoder-dummy.m */; };
+		BCE91B71458AE24C8C67B9B091E8BA97 /* NRV2EBitReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585AD0C103605BAAB58D90B6625C5D7 /* NRV2EBitReader.swift */; };
 		DD3D6D4C467DF191B89912D8A6245BFA /* Pods-NRV2EDecoder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0EFB895EF6606A438E01B9B6728094 /* Pods-NRV2EDecoder_Example-dummy.m */; };
 		DEE73C25ED923F3B850439DE500EC71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FD1E80CC7B272B4B589B7A49A7820A8F /* NRV2EDecompressor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2830A98BA798B638F5FFE3C2850DF8 /* NRV2EDecompressor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,41 +40,41 @@
 
 /* Begin PBXFileReference section */
 		032925888DE37FC0F5AAB1B79004BB37 /* Pods-NRV2EDecoder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRV2EDecoder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1AC0F592895D9CF30B2393E2ED440BFF /* NRV2EDecoder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = NRV2EDecoder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		21E2D600D43FA09DD3D47E09A86EF155 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1AC0F592895D9CF30B2393E2ED440BFF /* NRV2EDecoder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NRV2EDecoder.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21E2D600D43FA09DD3D47E09A86EF155 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2238551094376D737F65E28CF51C2329 /* Pods-NRV2EDecoder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRV2EDecoder_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2AFA442C6324437597C6D01F09B1C621 /* NRV2EDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NRV2EDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFA442C6324437597C6D01F09B1C621 /* NRV2EDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NRV2EDecoder.framework; path = NRV2EDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB720ACE9839DD0D87C3BDC69B21335 /* Pods-NRV2EDecoder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRV2EDecoder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D56A857A6CDB767315D09AD9F80F779 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34A0EA89972E2B57B07942B119D24B26 /* NRV2EDecoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NRV2EDecoder.modulemap; sourceTree = "<group>"; };
+		426CEED3C8F291E7362749A97EEB466B /* NRV2EScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NRV2EScannerViewController.swift; path = NRV2EDecoder/Classes/NRV2EScannerViewController.swift; sourceTree = "<group>"; };
 		46947AC2E56E574F1F9986DE269BD631 /* Pods-NRV2EDecoder_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRV2EDecoder_Example-resources.sh"; sourceTree = "<group>"; };
 		4F444450A7F3FC5A530CD6105ED81143 /* Pods-NRV2EDecoder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRV2EDecoder_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6434D91E4D1E7120B5728E86B5F98D89 /* Pods-NRV2EDecoder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRV2EDecoder_Tests-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B4E9A845069F9D617539E65EDAB2B98 /* Pods-NRV2EDecoder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRV2EDecoder_Example-umbrella.h"; sourceTree = "<group>"; };
+		8585AD0C103605BAAB58D90B6625C5D7 /* NRV2EBitReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NRV2EBitReader.swift; path = NRV2EDecoder/Classes/NRV2EBitReader.swift; sourceTree = "<group>"; };
 		871F54026EE4BFCDCA2ED75D0B86BC08 /* Pods-NRV2EDecoder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRV2EDecoder_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8D2A4A635DB8E04240516A4111544D6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D2A4A635DB8E04240516A4111544D6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9392EE18994F1305EA37FA23D45F95F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B97891F3792C6A848DF76E28E1C2C43 /* NRV2EDecoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRV2EDecoder-prefix.pch"; sourceTree = "<group>"; };
 		9D0EFB895EF6606A438E01B9B6728094 /* Pods-NRV2EDecoder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRV2EDecoder_Example-dummy.m"; sourceTree = "<group>"; };
 		A1581D1AD86C767971394BC63908D6B2 /* Pods-NRV2EDecoder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRV2EDecoder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A19662728F5E76BF0C70FCC242D6CF02 /* Pods_NRV2EDecoder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRV2EDecoder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19662728F5E76BF0C70FCC242D6CF02 /* Pods_NRV2EDecoder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRV2EDecoder_Example.framework; path = "Pods-NRV2EDecoder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22BF49EE7A8DA1C413F7B0D74779F0D /* Pods-NRV2EDecoder_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRV2EDecoder_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A6977E52AAE47EC20689F860B997D7C1 /* Pods_NRV2EDecoder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRV2EDecoder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6977E52AAE47EC20689F860B997D7C1 /* Pods_NRV2EDecoder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRV2EDecoder_Tests.framework; path = "Pods-NRV2EDecoder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFF6418EA21EC82FE805DA200379C18 /* Pods-NRV2EDecoder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRV2EDecoder_Example.modulemap"; sourceTree = "<group>"; };
 		B1105C7C38F214BB523670F0E1CD3226 /* NRV2EDecoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRV2EDecoder-dummy.m"; sourceTree = "<group>"; };
 		B3529A93DDDABDEC23E28DB0DF053BA0 /* NRV2EDecoder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRV2EDecoder-umbrella.h"; sourceTree = "<group>"; };
 		C3F83715FD904D3A7EAA947CD826CA89 /* Pods-NRV2EDecoder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRV2EDecoder_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CB2830A98BA798B638F5FFE3C2850DF8 /* NRV2EDecompressor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NRV2EDecompressor.swift; path = NRV2EDecoder/Classes/NRV2EDecompressor.swift; sourceTree = "<group>"; };
 		CD44C110C53991A633444870022307E2 /* NRV2EDecoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRV2EDecoder.xcconfig; sourceTree = "<group>"; };
 		CF02CF758CF227122BB408525E347D71 /* Pods-NRV2EDecoder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRV2EDecoder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D67EA7E11A47A4D91547D5E887361ADA /* Pods-NRV2EDecoder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRV2EDecoder_Tests.modulemap"; sourceTree = "<group>"; };
 		EC0865E7CDD865D946FC4C460DFF5860 /* Pods-NRV2EDecoder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRV2EDecoder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F623A666D517A07539E552F3054CE44D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA31B1787DFD869C976F73BC2D847C26 /* Pods-NRV2EDecoder_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRV2EDecoder_Tests-resources.sh"; sourceTree = "<group>"; };
-		FA4A75A021860CC900D5C7AD /* NRV2EDecompressor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRV2EDecompressor.swift; sourceTree = "<group>"; };
-		FA4A75A121860CC900D5C7AD /* NRV2EBitReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRV2EBitReader.swift; sourceTree = "<group>"; };
-		FA4A75A221860CC900D5C7AD /* NRV2EScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NRV2EScannerViewController.swift; sourceTree = "<group>"; };
 		FF7A42B8FC23A3AD239DEC4FBB4DBB7B /* Pods-NRV2EDecoder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRV2EDecoder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,7 +146,6 @@
 		27712E4F598DA886A51FB3E30CC7B95F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FA4A759E21860CC900D5C7AD /* Classes */,
 				21E2D600D43FA09DD3D47E09A86EF155 /* LICENSE */,
 				1AC0F592895D9CF30B2393E2ED440BFF /* NRV2EDecoder.podspec */,
 				8D2A4A635DB8E04240516A4111544D6C /* README.md */,
@@ -191,6 +193,9 @@
 		A3A1D88537C0FE44DE810ADDED40B8FC /* NRV2EDecoder */ = {
 			isa = PBXGroup;
 			children = (
+				8585AD0C103605BAAB58D90B6625C5D7 /* NRV2EBitReader.swift */,
+				CB2830A98BA798B638F5FFE3C2850DF8 /* NRV2EDecompressor.swift */,
+				426CEED3C8F291E7362749A97EEB466B /* NRV2EScannerViewController.swift */,
 				27712E4F598DA886A51FB3E30CC7B95F /* Pod */,
 				FF07F50E6DAF2194714D809C3005C720 /* Support Files */,
 			);
@@ -212,17 +217,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		FA4A759E21860CC900D5C7AD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FA4A75A021860CC900D5C7AD /* NRV2EDecompressor.swift */,
-				FA4A75A121860CC900D5C7AD /* NRV2EBitReader.swift */,
-				FA4A75A221860CC900D5C7AD /* NRV2EScannerViewController.swift */,
-			);
-			name = Classes;
-			path = NRV2EDecoder/Classes;
 			sourceTree = "<group>";
 		};
 		FF07F50E6DAF2194714D809C3005C720 /* Support Files */ = {
@@ -363,7 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE91B71458AE24C8C67B9B091E8BA97 /* NRV2EBitReader.swift in Sources */,
 				B92B646A1AC647E953AD618F62D1C161 /* NRV2EDecoder-dummy.m in Sources */,
+				FD1E80CC7B272B4B589B7A49A7820A8F /* NRV2EDecompressor.swift in Sources */,
+				B0505F929EBE81B06363CE791711C9F9 /* NRV2EScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
