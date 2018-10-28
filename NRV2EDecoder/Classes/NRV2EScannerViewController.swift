@@ -1,6 +1,6 @@
 import AVFoundation
 
-class NRV2EScannerViewController: UIViewController {
+public class NRV2EScannerViewController: UIViewController {
     
     let captureSession: AVCaptureSession!
     let previewLayer: AVCaptureVideoPreviewLayer!
@@ -16,7 +16,7 @@ class NRV2EScannerViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         configureSession()
@@ -54,13 +54,13 @@ class NRV2EScannerViewController: UIViewController {
         view.layer.addSublayer(previewLayer)
     }
     
-    override func viewDidLayoutSubviews() {
+    override public func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         
         previewLayer.frame = view.bounds
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         if !captureSession.isRunning {
@@ -68,7 +68,7 @@ class NRV2EScannerViewController: UIViewController {
         }
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
+    override public func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         
         if captureSession.isRunning {

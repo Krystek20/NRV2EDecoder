@@ -14,7 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6CD8D6A6FF49D0BE1DA04881 /* Pods_NRV2EDecoder_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE32B86DFA1266D1E30FFB7 /* Pods_NRV2EDecoder_Tests.framework */; };
-		7097CB23CB06F66901705B1C /* Pods_NRV2EDecoder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15412D5D7AA466FBC1C9E3A /* Pods_NRV2EDecoder_Example.framework */; };
+		7AF5B896BA247E4AB5433EC0 /* Pods_NRV2EDecoder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15412D5D7AA466FBC1C9E3A /* Pods_NRV2EDecoder_Example.framework */; };
+		FA0B98452186238B00F864C4 /* Pods_NRV2EDecoder_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE32B86DFA1266D1E30FFB7 /* Pods_NRV2EDecoder_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D15412D5D7AA466FBC1C9E3A /* Pods_NRV2EDecoder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRV2EDecoder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE32B86DFA1266D1E30FFB7 /* Pods_NRV2EDecoder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NRV2EDecoder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F819B8597B93A67A664A74D7 /* Pods-NRV2EDecoder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NRV2EDecoder_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NRV2EDecoder_Example/Pods-NRV2EDecoder_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FA0B98422186233700F864C4 /* NRV2EDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NRV2EDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4A75A3218610B700D5C7AD /* NRV2EDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NRV2EDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4A75A5218611FE00D5C7AD /* NRV2EDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NRV2EDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -56,7 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7097CB23CB06F66901705B1C /* Pods_NRV2EDecoder_Example.framework in Frameworks */,
+				FA0B98452186238B00F864C4 /* Pods_NRV2EDecoder_Tests.framework in Frameworks */,
+				7AF5B896BA247E4AB5433EC0 /* Pods_NRV2EDecoder_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +158,7 @@
 		63C20CDDD8E027A3D4201BC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA0B98422186233700F864C4 /* NRV2EDecoder.framework */,
 				FA4A75A5218611FE00D5C7AD /* NRV2EDecoder.framework */,
 				FA4A75A3218610B700D5C7AD /* NRV2EDecoder.framework */,
 				D15412D5D7AA466FBC1C9E3A /* Pods_NRV2EDecoder_Example.framework */,
@@ -481,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = NRV2EDecoder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -497,6 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HQ63E3X3P6;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = NRV2EDecoder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
